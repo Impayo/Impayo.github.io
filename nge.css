@@ -104,5 +104,8 @@ section{
  .tugas {
    background-color: #f9f9f9;
  }
-
+ img {
+   display: block;
+   margin: auto;
+ }
  
