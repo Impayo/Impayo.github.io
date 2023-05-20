@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+ a {
+    color: inherit;
+    text-decoration: none;
+ }
+ .medsos{
+    padding: 5px 0;
+    background-color: rgb(52, 112, 72);
+
+ }
+ .medsos ul li{
+    display: inline-block
+    
+ }
+ .container{
+    width: 80%;
+    margin: 0 auto; 
+    
+ }
+ .container:after {
+    content:" ";
+    display:block;
+    clear: both ;
+ }
+
+
+
+ header h1 {
+
+    float:left;
+    padding:50px 0px;
+    color:  rgb(52, 112, 72);
+ }
+ header ul{
+    
+    float:right;
+ }
+ header ul li {
+    display: inline-block
+
+ }
+ header ul li a {
+    padding: 25px 20px;
+    display:inline-block
+ }
+ header ul li a:hover {
+    background-color:  rgb(52, 112, 72);
+    color:white;
+
+ }
+ .active{
+    background-color:  rgb(52, 112, 72);
+    color:white;
+
+ }
+.banner {
+   height: 60vh ;
+   background-image: url('../tugas uprak/bck.jpg');
+   background-size: cover;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner:after {
+   content:' ';
+   display: block;
+   position: absolute;
+   top:0;
+   right:0;
+   left: 0;
+   bottom:0;
+   background-color:  rgb(52, 112, 72,.6);
+}
+.banner h2{
+   color: white;
+   z-index: 1;
+   padding: 20px 25px;
+   border: 3px solid white;
+}
+section{
+   padding: 50px 0;
+
+}
+ h3{
+   text-align: center;
+   padding: 20px 0;
+   color: rgb(52, 112, 72);
+   margin-bottom: 20px;
+ } 
+  p{
+   color: #666;
+   word-spacing: 2px;
+   line-height: 25px;
+ }
+ .tugas {
+   background-color: #f9f9f9;
+ }
+
+ 
