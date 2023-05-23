@@ -117,8 +117,10 @@ img {
 }
 .label {
     background-color: rgb(52, 112, 72);
-    color: white;
+    
     padding:25px 3 ;
 }
+.label p {
+    color: white;
     
  
