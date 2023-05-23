@@ -91,12 +91,7 @@ section{
    padding: 50px 0;
 
 }
- h3{
-   text-align: center;
-   padding: 20px 0;
-   color: rgb(52, 112, 72);
-   margin-bottom: 20px;
- } 
+ 
   p{
    color: #666;
    word-spacing: 2px;
@@ -125,4 +120,5 @@ img {
     color: white;
     padding:10px 25;
     text-align:center;
+    margin-bottom: 20px;
  
