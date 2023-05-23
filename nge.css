@@ -117,7 +117,8 @@ img {
 }
 .label {
     background-color: #148F77;
-    color: #FFF;
+    color: #fff;
+    padding:0px 5px;
 }
     
  
